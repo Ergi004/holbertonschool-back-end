@@ -1,19 +1,8 @@
 #!/usr/bin/python3
 """
-This module is used to fetch data from a given API and export the data to a CSV file.
-
-The script takes a user ID as an argument, fetches data related to the user and their tasks from the API,
-and writes the data to a CSV file. The CSV file is named after the user ID and contains the following fields:
-USER_ID, USERNAME, TASK_COMPLETED_STATUS, TASK_TITLE.
-
-This script requires that `requests` and `csv` be installed within the Python environment you are running this script in.
-
-Example:
-    $ python3 script.py 1
-
-This will create a CSV file named '1.csv' with data related to the user with ID 1.
+Model to make a request to an
+API and retrieve data
 """
-
 
 import json
 import requests
